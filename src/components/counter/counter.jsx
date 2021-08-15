@@ -1,4 +1,4 @@
-import connect from "../../appStore/connect"
+import connect from "../../appStore/connectAndProvider"
 
 let  Counter =  ({val, inc, dec})=> {
     return (

@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import createStore from "./appStore/store";
-import {Provider} from './appStore/connect'
+import {Provider} from './appStore/connectAndProvider'
 import counterReducer from "./components/counter/counterReducer";
 import combineReducers from "./appStore/combineReducers";
 import formSubmitReducer from "./components/formSubmit/formSubmitReducer";

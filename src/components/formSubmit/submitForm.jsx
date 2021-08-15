@@ -1,5 +1,5 @@
 import { useState } from "react";
-import connect from "../../appStore/connect";
+import connect from "../../appStore/connectAndProvider";
 
 let Form = function ({submit}) {
     const [name, setName] = useState('')
